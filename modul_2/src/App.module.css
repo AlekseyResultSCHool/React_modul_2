@@ -1,0 +1,77 @@
+.container {
+	border: 3px solid black;
+	width: 300px;
+    height: 400px;
+    margin:100px auto;
+	user-select: none;
+}
+
+.display, .displayRed{
+	background: rgb(234, 230, 230);
+	border: 2px solid black;
+	width: 270px;
+    height: 50px;
+    margin: 1px 10px 10px;
+	caret-color: transparent;
+	text-align: right;
+    font-size: 45px;
+}
+
+.displayRed {
+    color: red;
+}
+
+.buttom {
+	border: 2px solid black;
+	width: 270px;
+    height: 235px;
+    margin:10px auto;
+    cursor: pointer;
+}
+
+.number, .reset, .equals, .symbol {
+	border: 3px solid black;
+    width: 59px;
+    height: 50px;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 2px;
+    margin-left: 2px;
+    background: orange;
+    border-radius: 20px;
+    display: inline-block;
+	line-height: 50px;
+}
+
+.number:hover, .reset:hover, .equals:hover, .symbol:hover {
+    background: rgb(154, 154, 193);
+}
+
+.number:active, .reset:active, .equals:active, .symbol:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.equals {
+    background: blue;
+    height: 56px;
+    width: 198px;
+}
+
+.reset {
+    background: red;
+    width: 65px;
+    height: 56px;
+}
+
+.symbol {
+    width: 65px;
+    height: 56px;
+}
+
+.red {
+    color: red;
+}
+
+
+
